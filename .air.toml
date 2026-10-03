@@ -1,0 +1,8 @@
+root = "backend"
+tmp_dir = "tmp"
+
+[build]
+cmd = "go -C backend build -o ./tmp/main.exe ."
+entrypoint = ["./tmp/main.exe"]
+include_ext = ["go"]
+exclude_dir = ["tmp"]

@@ -1,6 +1,8 @@
 .env
 **/.env
 *.exe
-/bakend/tmp/
-/frontend/frontend/node_modules/
-/frontend/frontend/dist/
+/node_modules/
+/tmp/
+/backend/tmp/
+/frontend/node_modules/
+/frontend/dist/
